@@ -1,0 +1,80 @@
+body{
+    
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+
+.griglia{
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 3vh;
+}
+
+.titolo{
+    
+    color: white;
+    padding-top: 3vh;
+    grid-row: 1;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.sottotitolo{
+    
+    color: white;
+    grid-row: 2;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.testo{
+    
+    color: white;
+    grid-row: 3;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.fondo{
+    
+    color: white;
+    grid-row: 4;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.icona {
+    
+    height: 60px;
+    width: 60px;
+    
+}
+
+.link{
+    
+    font-style: italic;
+    color: white;
+    text-decoration:unset;
+    -webkit-transition: background 2s standard;
+    -moz-transition: background 2s standard;
+    -o-transition: background 2s standard;
+
+}
+.link:hover {
+    
+    
+    text-decoration: underline;
+    background-color: gray;
+	
+}
